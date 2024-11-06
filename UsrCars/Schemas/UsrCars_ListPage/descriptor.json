@@ -2,13 +2,12 @@
   "Descriptor": {
     "UId": "e1a63f96-bc73-49a1-83b7-7e7e713c8651",
     "Name": "UsrCars_ListPage",
-    "ModifiedOnUtc": "\/Date(1730883047000)\/",
+    "ModifiedOnUtc": "\/Date(1730888434000)\/",
     "Parent": {
       "UId": "3334b6c0-c8ab-4b59-a367-0c9182102552",
       "Name": "ListPageV2Template"
     },
     "ManagerName": "ClientUnitSchemaManager",
-    "Caption": "Cars list page",
-    "DependsOn": []
+    "Caption": "Cars list page"
   }
 }

@@ -3,6 +3,57 @@ define("UsrCars_ListPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCHEMA
 		viewConfigDiff: /**SCHEMA_VIEW_CONFIG_DIFF*/[
 			{
 				"operation": "merge",
+				"name": "MenuItem_ImportFromExcel",
+				"values": {
+					"clicked": {
+						"request": "crt.ImportDataRequest",
+						"params": {
+							"entitySchemaName": "UsrCars"
+						}
+					}
+				}
+			},
+			{
+				"operation": "remove",
+				"name": "SearchFilter",
+				"properties": [
+					"targetAttributes"
+				]
+			},
+			{
+				"operation": "merge",
+				"name": "SearchFilter",
+				"values": {
+					"_filterOptions": {
+						"expose": [
+							{
+								"attribute": "SearchFilter_Items",
+								"converters": [
+									{
+										"converter": "crt.SearchFilterAttributeConverter",
+										"args": [
+											"Items"
+										]
+									}
+								]
+							}
+						],
+						"from": [
+							"SearchFilter_SearchValue",
+							"SearchFilter_FilteredColumnsGroups"
+						]
+					}
+				}
+			},
+			{
+				"operation": "merge",
+				"name": "FolderTree",
+				"values": {
+					"rootSchemaName": "UsrCars"
+				}
+			},
+			{
+				"operation": "merge",
 				"name": "DataTable",
 				"values": {
 					"columns": [
@@ -19,32 +70,12 @@ define("UsrCars_ListPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCHEMA
 							"dataValueType": 7
 						},
 						{
-							"id": "fd4b3485-a46e-4219-b775-adef1210fe51",
-							"code": "PDS_CreatedBy",
-							"caption": "#ResourceString(PDS_CreatedBy)#",
-							"dataValueType": 10
-						},
-					]
-				}
-			},
-			{
-				"operation": "merge",
-				"name": "MenuItem_ImportFromExcel",
-				"values": {
-					"clicked": {
-						"request": "crt.ImportDataRequest",
-						"params": {
-							"entitySchemaName": "UsrCars"
+							"id": "1a1bf5cd-201c-d001-3420-bb954d129fa8",
+							"code": "PDS_UsrMyDescription",
+							"caption": "#ResourceString(PDS_UsrMyDescription)#",
+							"dataValueType": 28
 						}
-					}
-				}
-			},
-			{
-				"operation": "merge",
-				"name": "FolderTree",
-				"values": {
-					"sourceSchemaName": "FolderTree",
-					"rootSchemaName": "UsrCars"
+					]
 				}
 			}
 		]/**SCHEMA_VIEW_CONFIG_DIFF*/,
@@ -68,11 +99,39 @@ define("UsrCars_ListPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCHEMA
 							"path": "PDS.CreatedOn"
 						}
 					},
-					"PDS_CreatedBy": {
+					"PDS_UsrMyDescription": {
 						"modelConfig": {
-							"path": "PDS.CreatedBy"
+							"path": "PDS.UsrMyDescription"
 						}
 					}
+				}
+			},
+			{
+				"operation": "merge",
+				"path": [
+					"attributes",
+					"Items",
+					"modelConfig"
+				],
+				"values": {
+					"filterAttributes": [
+						{
+							"loadOnChange": true,
+							"name": "FolderTree_active_folder_filter"
+						},
+						{
+							"name": "Items_PredefinedFilter",
+							"loadOnChange": true
+						},
+						{
+							"name": "LookupQuickFilterByTag_Items",
+							"loadOnChange": true
+						},
+						{
+							"name": "SearchFilter_Items",
+							"loadOnChange": true
+						}
+					]
 				}
 			}
 		]/**SCHEMA_VIEW_MODEL_CONFIG_DIFF*/,
@@ -85,7 +144,18 @@ define("UsrCars_ListPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCHEMA
 					"config"
 				],
 				"values": {
-					"entitySchemaName": "UsrCars"
+					"entitySchemaName": "UsrCars",
+					"attributes": {
+						"UsrName": {
+							"path": "UsrName"
+						},
+						"CreatedOn": {
+							"path": "CreatedOn"
+						},
+						"UsrMyDescription": {
+							"path": "UsrMyDescription"
+						}
+					}
 				}
 			}
 		]/**SCHEMA_MODEL_CONFIG_DIFF*/,
