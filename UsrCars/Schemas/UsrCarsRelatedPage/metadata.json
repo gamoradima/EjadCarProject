@@ -1,0 +1,28 @@
+{
+  "MetaData": {
+    "Schema": {
+      "ManagerName": "AddonSchemaManager",
+      "UId": "a357c5d8-46bd-489d-8447-511f90463bc7",
+      "A2": "UsrCarsRelatedPage",
+      "A5": "6f71e54c-1960-40c9-94f6-073fd67699ab",
+      "B1": [],
+      "B2": [],
+      "B3": [],
+      "B6": "5530927f-22ea-e7c9-4ccf-506d3a6c2ed2",
+      "B8": "0.0.0.0",
+      "AD1": "754929a9-a6c0-41a0-ba7c-af8a2e607c86",
+      "AD2": "EntitySchemaManager",
+      "AD3": "RelatedPage",
+      "AD5": "3a2d6f51-1bfc-4c17-aacb-b53de4866b7c",
+      "AD4": {
+        "Pages": [
+          {
+            "UId": "42e27ebb-8c33-4f81-b3c5-30583030520b",
+            "PageSchemaUId": "212fc549-1eba-4e61-a7d7-bad0e0367e4e",
+            "IsDefault": true
+          }
+        ]
+      }
+    }
+  }
+}

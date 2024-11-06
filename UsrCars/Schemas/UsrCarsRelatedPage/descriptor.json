@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "a357c5d8-46bd-489d-8447-511f90463bc7",
+    "Name": "UsrCarsRelatedPage",
+    "ModifiedOnUtc": "\/Date(1730883047000)\/",
+    "ManagerName": "AddonSchemaManager",
+    "Caption": "Cars (Page settings)",
+    "DependsOn": []
+  }
+}
