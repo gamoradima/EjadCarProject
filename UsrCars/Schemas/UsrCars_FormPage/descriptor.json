@@ -2,13 +2,12 @@
   "Descriptor": {
     "UId": "212fc549-1eba-4e61-a7d7-bad0e0367e4e",
     "Name": "UsrCars_FormPage",
-    "ModifiedOnUtc": "\/Date(1730883175000)\/",
+    "ModifiedOnUtc": "\/Date(1730886996000)\/",
     "Parent": {
       "UId": "3b2e117f-8c6b-4ca5-80a2-7ebb497cddf9",
       "Name": "PageWithTabsFreedomTemplate"
     },
     "ManagerName": "ClientUnitSchemaManager",
-    "Caption": "Cars form page",
-    "DependsOn": []
+    "Caption": "Cars form page"
   }
 }

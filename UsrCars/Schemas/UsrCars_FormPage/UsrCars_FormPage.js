@@ -100,6 +100,26 @@ define("UsrCars_FormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCHEMA
 				"parentName": "BodyType",
 				"propertyName": "listActions",
 				"index": 0
+			},
+			{
+				"operation": "insert",
+				"name": "MyDescription",
+				"values": {
+					"layoutConfig": {
+						"column": 1,
+						"row": 1,
+						"colSpan": 1,
+						"rowSpan": 1
+					},
+					"type": "crt.Input",
+					"label": "$Resources.Strings.PDS_UsrMyDescription_wc385h3",
+					"labelPosition": "auto",
+					"control": "$PDS_UsrMyDescription_wc385h3",
+					"multiline": false
+				},
+				"parentName": "GeneralInfoTabContainer",
+				"propertyName": "items",
+				"index": 0
 			}
 		]/**SCHEMA_VIEW_CONFIG_DIFF*/,
 		viewModelConfigDiff: /**SCHEMA_VIEW_MODEL_CONFIG_DIFF*/[
@@ -117,6 +137,11 @@ define("UsrCars_FormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCHEMA
 					"PDS_UsrBodyType_pi4u0qk": {
 						"modelConfig": {
 							"path": "PDS.UsrBodyType"
+						}
+					},
+					"PDS_UsrMyDescription_wc385h3": {
+						"modelConfig": {
+							"path": "PDS.UsrMyDescription"
 						}
 					}
 				}
