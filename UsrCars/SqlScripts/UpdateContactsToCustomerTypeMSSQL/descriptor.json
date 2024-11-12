@@ -1,0 +1,11 @@
+﻿{
+  "SqlScript": {
+    "UId": "4cc6043e-a26f-9c4c-6051-8094ca7fec13",
+    "Name": "UpdateContactsToCustomerTypeMSSQL",
+    "DBEngineType": 0,
+    "InstallType": 2,
+    "ModifiedOnUtc": "\/Date(1730973595000)\/",
+    "BackwardCompatibilityConfirmed": false,
+    "DependsOn": []
+  }
+}

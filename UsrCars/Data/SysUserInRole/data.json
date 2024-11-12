@@ -1,0 +1,92 @@
+﻿{
+  "PackageData": [
+    {
+      "Row": [
+        {
+          "SchemaColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
+          "Value": "2d6bb162-b5de-4b73-bcf9-528299aed9b2"
+        },
+        {
+          "SchemaColumnUId": "c540ad32-33ed-4ad0-abb7-cc1575b9f6f2",
+          "Value": "6453f6f7-66a6-4adc-8778-f8ede7775170",
+          "DisplayValue": "Ahmed"
+        },
+        {
+          "SchemaColumnUId": "ceffac9c-08c8-4792-a3fc-2931b23bc538",
+          "Value": "6e9813f7-823e-4fa4-8e1d-614df44d3b74",
+          "DisplayValue": "Accountants"
+        },
+        {
+          "SchemaColumnUId": "e80190a5-03b2-4095-90f7-a193a960adee",
+          "Value": "\/Date(1731315270686+0200)\/"
+        }
+      ]
+    },
+    {
+      "Row": [
+        {
+          "SchemaColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
+          "Value": "6a75d937-3bba-436a-8770-ebb2443e015c"
+        },
+        {
+          "SchemaColumnUId": "c540ad32-33ed-4ad0-abb7-cc1575b9f6f2",
+          "Value": "6453f6f7-66a6-4adc-8778-f8ede7775170",
+          "DisplayValue": "Ahmed"
+        },
+        {
+          "SchemaColumnUId": "ceffac9c-08c8-4792-a3fc-2931b23bc538",
+          "Value": "a29a3ba5-4b0d-de11-9a51-005056c00008",
+          "DisplayValue": "All employees"
+        },
+        {
+          "SchemaColumnUId": "e80190a5-03b2-4095-90f7-a193a960adee",
+          "Value": "\/Date(1731313108033+0200)\/"
+        }
+      ]
+    },
+    {
+      "Row": [
+        {
+          "SchemaColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
+          "Value": "be475242-320e-4d77-9429-b001ee450b2a"
+        },
+        {
+          "SchemaColumnUId": "c540ad32-33ed-4ad0-abb7-cc1575b9f6f2",
+          "Value": "6453f6f7-66a6-4adc-8778-f8ede7775170",
+          "DisplayValue": "Ahmed"
+        },
+        {
+          "SchemaColumnUId": "ceffac9c-08c8-4792-a3fc-2931b23bc538",
+          "Value": "351eb450-ec48-4e30-8d5a-936b8e5146b0",
+          "DisplayValue": "Team Leaders"
+        },
+        {
+          "SchemaColumnUId": "e80190a5-03b2-4095-90f7-a193a960adee",
+          "Value": "\/Date(1731315167593+0200)\/"
+        }
+      ]
+    },
+    {
+      "Row": [
+        {
+          "SchemaColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
+          "Value": "fec0722d-2a0f-412d-b97f-aec0aa6e02f5"
+        },
+        {
+          "SchemaColumnUId": "c540ad32-33ed-4ad0-abb7-cc1575b9f6f2",
+          "Value": "6453f6f7-66a6-4adc-8778-f8ede7775170",
+          "DisplayValue": "Ahmed"
+        },
+        {
+          "SchemaColumnUId": "ceffac9c-08c8-4792-a3fc-2931b23bc538",
+          "Value": "48f8e037-f58a-416c-ac58-0e815de11fe0",
+          "DisplayValue": "Support Department"
+        },
+        {
+          "SchemaColumnUId": "e80190a5-03b2-4095-90f7-a193a960adee",
+          "Value": "\/Date(1731314874886+0200)\/"
+        }
+      ]
+    }
+  ]
+}

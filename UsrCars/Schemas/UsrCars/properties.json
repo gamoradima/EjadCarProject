@@ -1,8 +1,8 @@
 ﻿{
   "Properties": {
     "AdministratedByColumns": "False",
-    "AdministratedByOperations": "False",
-    "AdministratedByRecords": "False",
+    "AdministratedByOperations": "True",
+    "AdministratedByRecords": "True",
     "CreatedInVersion": "0.0.0.0",
     "IsSSPAvailable": "False",
     "IsTrackChangesInDB": "False",

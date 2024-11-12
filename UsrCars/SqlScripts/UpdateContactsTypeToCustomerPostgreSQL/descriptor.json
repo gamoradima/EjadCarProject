@@ -1,0 +1,11 @@
+﻿{
+  "SqlScript": {
+    "UId": "9ca05b95-592c-a2ad-aff0-b79e888d1613",
+    "Name": "UpdateContactsTypeToCustomerPostgreSQL",
+    "DBEngineType": 2,
+    "InstallType": 2,
+    "ModifiedOnUtc": "\/Date(1730973748000)\/",
+    "BackwardCompatibilityConfirmed": false,
+    "DependsOn": []
+  }
+}

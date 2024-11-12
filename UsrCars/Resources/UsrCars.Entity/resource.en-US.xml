@@ -6,6 +6,7 @@
 			<Item Name="Columns.UsrBodyType.Caption" Value="Body type" />
 			<Item Name="Columns.UsrMyDescription.Caption" Value="Description" />
 			<Item Name="Columns.UsrName.Caption" Value="Name" />
+			<Item Name="Columns.UsrProdDateTime.Caption" Value="Production Date/Time" />
 		</Items>
 	</Group>
 </Resources>
